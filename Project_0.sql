@@ -3,10 +3,13 @@ from public.students;
 
 --1. Print all fields and all rows
 select* FROM students;
+
 --2. Print all students in the table
 select * from students;
+
 --3. Print only Users Id
 select "id" from students;
+
 --4. Print user name only
 select "name" from students;
 --5. Print user email only
